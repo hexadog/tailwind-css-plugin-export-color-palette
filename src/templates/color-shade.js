@@ -1,4 +1,4 @@
-export default (data) => {
+module.exports = (data) => {
     return `<div class="relative flex">
     <div class="space-y-1.5 cursor-pointer">
         <div class="h-10 w-full rounded dark:ring-1 dark:ring-inset dark:ring-white/10"

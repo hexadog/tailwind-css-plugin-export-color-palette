@@ -1,4 +1,4 @@
-export default (data) => {
+module.exports = (data) => {
     return `<div>
         <div class="flex flex-col space-y-3 sm:flex-row text-xs sm:space-y-0 sm:space-x-4">
             <div class="w-16 shrink-0">
