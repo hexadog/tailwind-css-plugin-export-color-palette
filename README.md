@@ -26,3 +26,6 @@ module.exports = {
     ],
 };
 ```
+
+### 3. Build your Tailwind CSS Template
+Generated color palette preview is available in `dist/color-palette.html`.
