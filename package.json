@@ -1,6 +1,6 @@
 {
     "name": "@hexadog/tailwind-css-plugin-export-color-palette",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "This plugin generates an HTML file containing a preview of the color palette.",
     "main": "src/index.js",
     "scripts": {
