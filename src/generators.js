@@ -10,7 +10,7 @@ module.exports = {
             const hex = colors;
             const rgb = convert.hex.rgb(hex);
 
-            shade.push(colorShadeTemplate({
+            shades.push(colorShadeTemplate({
                 name,
                 hex,
                 rgb
