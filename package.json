@@ -5,7 +5,7 @@
     "main": "src/index.js",
     "scripts": {
         "test": "NODE_ENV=test node ./src/index.js",
-        "upload": "npm publish --access public",
+        "publish": "npm publish --access public",
         "patch": "npm version patch",
         "minor": "npm version minor",
         "major": "npm version major"
