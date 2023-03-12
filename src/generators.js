@@ -17,7 +17,7 @@ module.exports = {
             }));
         } else if (typeof colors === 'object') {
             for (let shade in colors) {
-                if (colors[color].hasOwnProperty(shade)) {
+                if (colors.hasOwnProperty(shade)) {
                     const hex = colors[shade];
                     const rgb = convert.hex.rgb(hex);
 
