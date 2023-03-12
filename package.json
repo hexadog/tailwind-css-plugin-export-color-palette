@@ -1,0 +1,47 @@
+{
+    "name": "@hexadog/tailwind-css-plugin-export-color-palette",
+    "version": "1.0.0",
+    "description": "This plugin generates an HTML file containing a preview of the color palette.",
+    "main": "src/index.js",
+    "scripts": {
+        "test": "NODE_ENV=test node ./src/index.js",
+        "upload": "npm publish --access public",
+        "patch": "npm version patch",
+        "minor": "npm version minor",
+        "major": "npm version major"
+    },
+    "author": {
+        "name": "Gaetan B.",
+        "email": "gaetan@hexadog.com",
+        "url": "https://www.hexadog.com/"
+    },
+    "homepage": "https://github.com/hexadog/tailwind-css-plugin-export-color-palette#readme",
+    "bugs": {
+        "url": "https://github.com/hexadog/tailwind-css-plugin-export-color-palette/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hexadog/tailwind-css-plugin-export-color-palette.git"
+    },
+    "license": "MIT",
+    "keywords": [
+        "tailwindcss",
+        "css",
+        "tailwind",
+        "color",
+        "palette",
+        "export"
+    ],
+    "dependencies": {
+        "change-case": "^4.1.2",
+        "hex-rgb": "^5.0.0",
+        "lodash": "^4.17.21"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.14",
+        "clean-css": "^5.3.2"
+    },
+    "peerDependencies": {
+        "tailwindcss": "^1.8.3 || ^2.0.0 || ^3.0.0"
+    }
+}
