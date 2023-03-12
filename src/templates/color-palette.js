@@ -2,12 +2,14 @@ module.exports = (data) => {
     return `<!doctype html>
 <html lang="en">
     <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Tailwind CSS Color Palette</title>
-    <meta name="description" content="Tailwind CSS Color Palette preview">
-    <meta name="author" content="hexadog">
+        <title>Tailwind CSS Color Palette</title>
+        <meta name="description" content="Tailwind CSS Color Palette preview">
+        <meta name="author" content="hexadog">
+
+        <script src="https://cdn.tailwindcss.com"></script>
     </head>
 
     <body>
