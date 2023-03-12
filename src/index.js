@@ -16,7 +16,7 @@ module.exports = plugin(
         }
 
         const colorPalette = colorPaletteTemplate({
-            palette
+            palette: palette.join
         });
 
         fs.ensureFileSync('./dist/color-palette.html');

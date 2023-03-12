@@ -32,7 +32,7 @@ module.exports = {
 
         return colorContainerTemplate({
             name,
-            shades
+            shades: shades.join('')
         });
     }
 }
