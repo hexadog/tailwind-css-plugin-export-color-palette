@@ -10,7 +10,7 @@ module.exports = plugin(
         const palette = [];
 
         for (let name in colors) {
-            if (colors.hasOwnProperty(name)) {
+            if (colors.hasOwnProperty(name) && !['inherit', 'currentColor', 'transparent'].includes(name)) {
                 palette.push(colorShades(name, colors[name]));
             }
         }
